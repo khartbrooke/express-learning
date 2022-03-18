@@ -12,3 +12,5 @@ app.use("/tyranid", tyranidRoutes);
 const server = app.listen(4494, () => {
     console.log("Server successfully started on port", server.address().port);
 });
+
+module.exports = server;
